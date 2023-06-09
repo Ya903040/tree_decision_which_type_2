@@ -1,0 +1,56 @@
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+#wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#output {
+    margin: 2em 1em;
+    text-align: left;
+    font-family: monospace;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #000000;
+}
+#output .title {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+#output ul {
+    color: #498136;
+}
+#output ul li {
+    margin: 1em;
+}
+#output ul a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#output ul a.restart {
+    color: red;
+}
+#output ul a:hover {
+    color: #9b4cde;
+}
+#output .inv {
+    color: #ca9;
+    font-size: 0.8em;
+    padding-top: 2em;
+}
+
+.text{
+    text-align: center;
+}
